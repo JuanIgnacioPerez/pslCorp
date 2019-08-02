@@ -4,3 +4,26 @@
 body {
   font-family: 'Work Sans', sans-serif;
 }
+
+#fp-nav ul li a span {
+  padding: 0;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0 auto 5px auto;
+  color: #b721ff;
+  border: solid 2px rgba(183, 33, 255, 0.1) !important;
+  display: block;
+}
+
+#fp-nav ul li a.active span {
+  background: #fff !important;
+  width: 14px;
+  height: 14px;
+  border: solid 2px rgba(183,33,255,0.7) !important;
+}
+
+#fp-nav.fp-left {
+  left: 5px;
+}

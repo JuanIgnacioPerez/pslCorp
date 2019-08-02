@@ -1,0 +1,52 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 50%;
+}
+
+.about__listBox {
+  padding-left: 20%;
+}
+
+.about__infoBox {
+  padding-right: 20%;
+}
+
+.about__heading {
+  width: fit-content;
+  font-size: 50px;
+  font-weight: 800;
+  color: #ffffff;
+  cursor: pointer;
+  line-height: .8;
+  margin-bottom: 15px;
+  margin-top: 0;
+  word-break: break-word;
+}
+
+.about__heading:hover {
+  box-shadow: 0 4px 13px -3px rgba(225, 225, 225, .75);
+  opacity: .9;
+}
+
+.about__text {
+  font-size: 22px;
+  color: #ffffff;
+  padding: 30px;
+  margin: 0;
+  line-height: 1.23;
+}
+
+@media (max-width: 992px) {
+  .about__heading {
+    font-size: 30px;
+  }
+
+  .about__text {
+    font-size: 14px;
+  }
+}

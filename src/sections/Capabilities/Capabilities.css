@@ -1,0 +1,99 @@
+.capabilities {
+  background: url('../../images/backCapabilities.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.capabilities__container {
+  display: flex;
+  justify-content: center;
+}
+
+.capabilities__wrapper {
+  width: 50%;
+}
+
+.capabilities__infoBox {
+  padding-left: 20%;
+}
+
+.capabilities__listBox {
+  padding-right: 20%;
+}
+
+.capabilities__title {
+  font-size: 60px;
+  font-weight: 800;
+  color: #fff;
+  margin: 0;
+  padding: 10px 0 0;
+}
+
+.capabilities__subTitle {
+  font-size: 40px;
+  font-weight: 300;
+  color: #fff;
+  margin: 0;
+  padding: 10px 0 0;
+}
+
+.capabilities__description {
+  font-size: 20px;
+  font-weight: normal;
+  color: #ffffff;
+  padding-right: 35px;
+}
+
+.capabilities__list {
+  list-style: none;
+  text-align: right;
+  cursor: pointer;
+}
+
+.capabilities__list svg {
+  margin-left: 40px;
+  font-size: 12px;
+}
+
+.capabilities__list li {
+  padding: 6px 12px;
+}
+
+.capabilities__list a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.capabilities__list a:hover {
+  opacity: .8;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 992px) {
+  .capabilities__infoBox {
+    padding-left: 10%;
+  }
+
+  .capabilities__listBox {
+    padding-right: 10%;
+  }
+
+  .capabilities__title {
+    font-size: 30px;
+  }
+
+  .capabilities__subTitle {
+    font-size: 20px;
+  }
+
+  .capabilities__description {
+    font-size: 16px;
+  }
+
+  .capabilities__list li a {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,56 @@
+.main {
+  background: url('../../images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.main__wrapper {
+  padding: 5% 5% 5% 20%;
+}
+
+.main__title {
+  font-size: 70px;
+  line-height: 75px;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 20px;
+}
+
+.main__button {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #21d1fa;
+  border: 1px solid #21d1fa;
+  padding: 8px 20px;
+  border-radius: 21px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.main__button:hover {
+  border-color: #ffffff;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.main__button:focus {
+  outline: none;
+}
+
+@media (max-width: 992px) {
+  .main__wrapper {
+    padding: 10%;
+  }
+
+  .main__title {
+    font-size: 30px;
+    line-height: unset;
+  }
+
+  .main__button {
+    font-size: 14px;
+    padding: 4px 10px;
+  }
+}

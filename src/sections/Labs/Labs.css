@@ -1,0 +1,84 @@
+.labs {
+  background: url('../../images/psllabs.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.labs__container {
+  display: flex;
+  justify-content: center;
+}
+
+.labs__wrapper {
+  width: 50%;
+}
+
+.labs__infoBox {
+  padding-left: 20%;
+}
+
+.labs__dnaBox {
+  padding-right: 20%;
+}
+
+.labs__title {
+  font-size: 60px;
+  font-weight: 800;
+  color: #fff;
+  margin: 0;
+  padding: 10px 0 0;
+}
+
+.labs__subTitle {
+  font-size: 40px;
+  font-weight: 300;
+  color: #fff;
+  margin: 0;
+  padding: 10px 0 0;
+}
+
+.labs__description {
+  font-size: 20px;
+  font-weight: normal;
+  color: #ffffff;
+  line-height: 1.4;
+  padding-right: 35px;
+}
+
+.labs__description a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.labs__description a:hover {
+  box-shadow: 0 7px 7px -5px rgba(225, 225, 225, .75);
+  transition: all 0.2s ease-in;
+  opacity: .9;
+}
+
+@media (max-width: 992px) {
+  .labs__infoBox {
+    padding-left: 10%;
+  }
+
+  .labs__dnaBox {
+    padding-right: 10%;
+  }
+
+  .labs__title {
+    font-size: 30px;
+  }
+
+  .labs__subTitle {
+    font-size: 20px;
+  }
+
+  .labs__description {
+    font-size: 16px;
+  }
+}
