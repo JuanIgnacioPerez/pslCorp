@@ -20,6 +20,11 @@ Go to the folder project
 cd pslcorp
 ```
 
+### `Install dependencies`
+```bash
+npm install
+```
+
 ### `Run project`
 ```bash
 npm start
