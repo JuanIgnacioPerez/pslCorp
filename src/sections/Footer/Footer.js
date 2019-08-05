@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./Footer.css";
 
@@ -24,27 +25,47 @@ const Footer = props => {
           <div className="footer__wrapper">
             <h3 className="footer__title">IT outsourcing services</h3>
             <ul className="footer__content">
-              <li className="footer__item">Agile software development</li>
-              <li className="footer__item">
-                Nearshore IT outsourcing team augmentation
-              </li>
-              <li className="footer__item">
-                Test Automation and QA outsourcing
-              </li>
-              <li className="footer__item">DevOps transition support</li>
-              <li className="footer__item">
-                Cloud architecture design and implementation
-              </li>
+              <a href="#">
+                <li className="footer__item">Agile software development</li>
+              </a>
+              <a href="#">
+                <li className="footer__item">
+                  Nearshore IT outsourcing team augmentation
+                </li>
+              </a>
+              <a href="#">
+                <li className="footer__item">
+                  Test Automation and QA outsourcing
+                </li>
+              </a>
+              <a href="#">
+                <li className="footer__item">DevOps transition support</li>
+              </a>
+              <a href="#">
+                <li className="footer__item">
+                  Cloud architecture design and implementation
+                </li>
+              </a>
             </ul>
           </div>
           <div className="footer__wrapper">
             <h3 className="footer__title">Our DNA</h3>
             <ul className="footer__content">
-              <li className="footer__item">About PSL Outsourcing</li>
-              <li className="footer__item">Culture</li>
-              <li className="footer__item">Telent</li>
-              <li className="footer__item">CSR</li>
-              <li className="footer__item">Footer us</li>
+              <a href="#">
+                <li className="footer__item">About PSL Outsourcing</li>
+              </a>
+              <a href="#">
+                <li className="footer__item">Culture</li>
+              </a>
+              <a href="#">
+                <li className="footer__item">Telent</li>
+              </a>
+              <a href="#">
+                <li className="footer__item">CSR</li>
+              </a>
+              <a href="#">
+                <li className="footer__item">Footer us</li>
+              </a>
             </ul>
           </div>
           <div className="footer__wrapper">

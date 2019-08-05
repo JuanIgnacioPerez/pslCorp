@@ -58,7 +58,7 @@
 .labs__description a:hover {
   box-shadow: 0 7px 7px -5px rgba(225, 225, 225, .75);
   transition: all 0.2s ease-in;
-  opacity: .9;
+  color: rgb(33, 209, 250);
 }
 
 @media (max-width: 992px) {

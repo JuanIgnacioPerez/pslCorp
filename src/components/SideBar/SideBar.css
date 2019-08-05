@@ -1,41 +1,41 @@
 .sideBar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60px;
-    z-index: 50;
-    padding: 20px 0 20px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 50;
+  padding: 20px 0 20px 40px;
 }
 
 .sideBar__navigation {
-    display: flex;
-    height: 100%;
-    align-items: center;
+  display: flex;
+  height: 100%;
+  align-items: center;
 }
 
 .sideBar__logo {
-    padding-left: 15px
+  padding-left: 15px
 }
 
 .sideBar__image {
-    height: 55px;
-    width: auto;
-    margin-top: 23px;
-    transition: all 0.3s
+  height: 55px;
+  width: auto;
+  margin-top: 23px;
+  transition: all 0.3s
 }
 
 @media (max-width: 992px) {
-    .sideBar {
-        background: #fff;
-        padding: 10px 0 10px 10px;
-        transition: all 0.3s ease;
-    }
+  .sideBar {
+    background: rgba(45, 32, 69, .7);
+    padding: 10px 0 10px 10px;
+    transition: all 0.3s ease;
+  }
 
-    .sideBar__image {
-        height: 40px;
-        margin-top: 0;
-        width: auto;
-        transition: all 0.3s;
-    }
+  .sideBar__image {
+    height: 40px;
+    margin-top: 0;
+    width: auto;
+    transition: all 0.3s;
+  }
 }

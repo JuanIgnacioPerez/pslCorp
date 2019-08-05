@@ -34,6 +34,10 @@
   transition: all 0.3s ease-in-out;
 }
 
+.footer__button:focus {
+  outline: none;
+}
+
 .footer__title {
   font-size: 24px;
   font-weight: 700;
@@ -45,6 +49,16 @@
   font-weight: 300;
   list-style: none;
   padding: 0;
+}
+
+.footer__content a {
+  text-decoration: none;
+  color: #f9f9f9;
+}
+
+.footer__content a:hover {
+  color: #21d1fa;
+  transition: all 0.2s ease-in;
 }
 
 .footer__chat {
